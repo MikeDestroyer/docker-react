@@ -1,10 +1,21 @@
 sudo: required
-
+language: generic
 services:
   - docker
 
 before_install:
   - docker build -t mikeriver/docker-react_test -f Dockerfile.dev .
+
 script:
   - docker run -e CI=true mikeriver/docker-react_test npm run test -- --coverage
-language: generic
+
+deploy: elasticbeanstalk
+region: "eu-central-1"
+app: "docker-react"
+env: "Dockerreact-env"
+bucket_name: "elasticbeanstalk-eu-central-1-110737947154"
+bucket_path: "docker-react"
+on:
+  branch: main
+access_key_id: $AWS_ACCESS_KEY
+secret_access_key_id: "$AWS_SECRET_KEY"
