@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="271b661b-c190-442d-9d8b-1e314c4810b7" name="Changes" comment="">
+    <list default="true" id="271b661b-c190-442d-9d8b-1e314c4810b7" name="Changes" comment="added package-lock.json in .gitignore">
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HGyWhoXK7CvOKF42e6DqAih1cl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,7 +53,8 @@
       <workItem from="1667925749952" duration="28000" />
       <workItem from="1667925806407" duration="3769000" />
       <workItem from="1668002433973" duration="12143000" />
-      <workItem from="1668079967435" duration="1675000" />
+      <workItem from="1668079967435" duration="2946000" />
+      <workItem from="1668087354550" duration="107000" />
     </task>
     <servers />
   </component>
@@ -64,10 +66,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added package-lock.json in .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added package-lock.json in .gitignore" />
   </component>
 </project>
