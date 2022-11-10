@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="271b661b-c190-442d-9d8b-1e314c4810b7" name="Changes" comment="added package-lock.json in .gitignore">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+    <list default="true" id="271b661b-c190-442d-9d8b-1e314c4810b7" name="Changes" comment="added /.idea in .gitignore file">
+      <change beforePath="$PROJECT_DIR$/.idea/frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +15,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2HGyWhoXK7CvOKF42e6DqAih1cl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,7 +60,30 @@
       <workItem from="1668002433973" duration="12143000" />
       <workItem from="1668079967435" duration="2946000" />
       <workItem from="1668087354550" duration="107000" />
+      <workItem from="1668087470729" duration="3452000" />
     </task>
+    <task id="LOCAL-00001" summary="added package-lock.json in .gitignore">
+      <created>1668087582260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668087582260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added .idea in .gitignore file&#10;created config file .travis.yml for TravisCI">
+      <created>1668105000304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668105000304</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added /.idea in .gitignore file">
+      <created>1668105067163</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668105067163</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added package-lock.json in .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added package-lock.json in .gitignore" />
+    <MESSAGE value="added .idea in .gitignore file&#10;created config file .travis.yml for TravisCI" />
+    <MESSAGE value="added /.idea in .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added /.idea in .gitignore file" />
   </component>
 </project>
