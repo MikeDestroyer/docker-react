@@ -31,4 +31,4 @@ CMD ["npm", "run", "build"]
 
 FROM nginx
 
-COPY --from=builder /app /usr/share/nginx/html
+COPY --from=0 /app /usr/share/nginx/html
