@@ -9,8 +9,9 @@ COPY --chown=node:node ./package.json ./
 RUN npm install
 COPY --chown=node:node ./ ./
 
-CMD ["npm", "run", "build"]
-
+#CMD ["npm", "run", "build"]
+RUN npm run build
+RUN ls
 
 FROM nginx
 EXPOSE 80
