@@ -3,11 +3,11 @@ language: generic
 services:
   - docker
 
-#before_install:
-#  - docker build -t mikeriver/docker-react_test -f Dockerfile.dev .
-#
-#script:
-#  - docker run -e CI=true mikeriver/docker-react_test npm run test -- --coverage
+before_install:
+  - docker build -t mikeriver/docker-react_test -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true mikeriver/docker-react_test npm run test -- --coverage
 
 deploy:
   provider: elasticbeanstalk
