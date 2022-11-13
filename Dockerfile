@@ -16,7 +16,7 @@
 #
 #COPY --from=builder /home/node/app/build /usr/share/nginx/html
 
-FROM node:16-alpine as builder
+FROM node:16-alpine AS builder
 
 
 RUN mkdir -p /app/frontend
@@ -31,4 +31,4 @@ CMD ["npm", "run", "build"]
 
 FROM nginx
 
-COPY --from=0 /app/frontend/build /usr/share/nginx/html
+COPY --from=builder /app/frontend/build /usr/share/nginx/html
