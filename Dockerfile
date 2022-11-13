@@ -13,8 +13,10 @@ CMD ["npm", "run", "build"]
 
 
 FROM nginx
+EXPOSE 80
 
 COPY --from=builder /home/node/app/build /usr/share/nginx/html
+RUN ls /usr/share/nginx/html
 
 #FROM node:16-alpine AS builder
 #
