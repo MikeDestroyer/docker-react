@@ -20,3 +20,4 @@ deploy:
   bucket_path: "docker-react"
   on:
     branch: main
+  skip_cleanup: true
